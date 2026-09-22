@@ -1,0 +1,17 @@
+name: SabiasQue
+options:
+  bundleIdPrefix: com.tarea.sabiasque
+  deploymentTarget:
+    iOS: "16.0"
+targets:
+  SabiasQue:
+    type: application
+    platform: iOS
+    sources:
+      - Sources
+    info:
+      path: Sources/Info.plist
+    settings:
+      base:
+        PRODUCT_BUNDLE_IDENTIFIER: com.tarea.sabiasque.app
+        TARGETED_DEVICE_FAMILY: "1"
